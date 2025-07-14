@@ -1,1 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 20px 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #f39c12; /* Gold color on hover */
+}
+
+/* Disclaimer Text */
+header h2 {
+    font-size: 1.1rem;
+    margin-top: 20px;
+    background-color: #f39c12;
+    padding: 10px;
+    border-radius: 5px;
+    color: #333;
+}
+
+header ul {
+    margin-top: 20px;
+    padding: 0;
+}
+
+header ul li {
+    margin-bottom: 10px;
+}
+
+header ul li a {
+    font-size: 1.2rem;
+    color: #1a73e8; /* Blue color for links */
+    text-decoration: none;
+    transition: text-decoration 0.3s ease;
+}
+
+header ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styling (Optional) */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Make sure the footer stays at the bottom if the content is short */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
 
